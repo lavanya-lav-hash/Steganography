@@ -43,4 +43,16 @@ Steganography is a method of securely hiding information within digital media so
 ---
 
 ## ▶️ How to Run
+1. Install Python on your computer
+2. Open the project folder in VS Code / PyCharm / any editor
+3. Make sure required libraries are installed:
+   pip install pillow
+   pip install opencv-python
+
+4. To hide a message inside an image, run:
+   python encode.py
+
+5. To extract / decode the hidden message, run:
+   python decode.py
+
 
